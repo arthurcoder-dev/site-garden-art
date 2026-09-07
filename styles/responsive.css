@@ -161,3 +161,120 @@
     }
 
 }
+
+@media screen and (max-width: 162px) {
+
+    .navbar {
+        height: 35px;
+        justify-content: center;
+        display: block;
+    }
+
+    .logo {
+        display: none;
+        flex: 0;
+    }
+
+    .links {
+        margin: 0;
+    }
+
+    .links a.btn {
+        margin: 0;
+        padding:5px;
+        font-size:9px;
+    }
+
+    .header {
+        margin-top:40px;
+    }
+
+    .headline h2 {
+        font-size: 20px;
+    }
+
+    .headline span {
+        font-size: 15px;
+    }
+
+    .btn-contato {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .img-headline img {
+        margin: 0;
+        width: 150px;
+    }
+
+    .contacts {
+        margin:0;
+    }
+
+    .contacts a {
+        font-size:7px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .contacts img {
+        width: 10px;
+    }
+
+    .about span {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .services h2 {
+        font-size:18px;
+    }
+
+    .product h3 {
+        font-size: 10px;
+    }
+
+    .product {
+        width: 100px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .product img {
+        width: 70px;
+        height: 100px;
+    }
+
+    .product .btn-contato {
+        font-size: 10px;
+        padding: 9px 31px;
+    }
+
+    .exclusives h2 {
+        font-size:18px;
+    }
+
+    .product-exclusive h3 {
+        font-size: 10px;
+    }
+
+    .product-exclusive {
+        width: 100px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .product-exclusive img {
+        width: 70px;
+        height: 100px;
+    }
+
+    .product-exclusive .btn-contato-exclusive {
+        font-size: 10px;
+        padding: 9px 31px;
+    }
+
+}

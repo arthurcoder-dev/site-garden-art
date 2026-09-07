@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../assets/background_img.png);
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin-left: 30%;
+    flex: 50%;
+}
+
+.links {
+    text-align: center;
+    margin-left: 5%;
+    flex: 50%;
+}
+
+.links a.btn {
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.links a:hover {
+    color: gray;
+    border-color: gray;
+}
+
+.header {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: auto;
+    width: 100%;
+}
+
+.headline {
+    flex: 45%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 72px;
+    margin: 0;
+}
+
+.headline span {
+    font-weight: 900;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 20%;
+}
+
+.headline p {
+    font-size: 18px;
+}
+
+.img-headline {
+    flex: 45%;
+    flex-flow: row wrap;
+    margin: 50px 10px;
+}
+
+.img-headline img {
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 600px;
+}
+
+.btn-contato {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-contato:hover {
+    background-color: gray;
+}
+
+#btn-contato {
+    margin-left: 5%;
+    margin-right:5%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#btn-contato:hover {
+    background-color: gray;
+}
+
+.contacts {
+    display: inline;
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.contacts a {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    color: gray;
+    border-color: gray;
+}
+
+.footer {
+    position: relative;
+    clear: both;
+    width: 100%;
+
+    color: gray;
+    background-color: black;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 5%;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.about span {
+    margin: 15px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.services h2 {
+    flex: 100%;
+}
+
+.exclusives {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.exclusives h2 {
+    flex: 100%;
+}
+
+.product {
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 160px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product img {
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 140px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-exclusive {
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: 3px solid rgb(200,200,100);
+    border-radius: 10px;
+    width: 160px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-exclusive img {
+    border: 3px solid rgb(200,200,100);
+    border-radius: 10px;
+    width: 140px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.btn-contato-exclusive {
+    background-color: rgb(200,200,100);
+    color: black;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-contato-exclusive:hover {
+    background-color: rgb(100,100,0)
+}

@@ -1,0 +1,163 @@
+@media screen and (max-width: 1240px) {
+
+    .img-headline img {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .img-headline {
+        text-align: center;
+    }
+
+    .img-headline img {
+        width: 450px;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1005px) {
+
+    .headline {
+        text-align: center;
+        margin:10px;
+    }
+
+    .img-headline img {
+        margin: 5px;
+        width: 700px;
+    }
+
+    .footer {
+        width: 100%;
+        font-size: 12px
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    
+    .img-headline img {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 645px) {
+
+    .navbar {
+        display: block;
+        height: 150px;
+    }
+
+    .logo {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .links {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .header {
+        margin-top: 150px;
+    }
+
+    .headline h2 {
+        font-size: 55px;
+    }
+
+    .headline span {
+        font-size: 22px;
+    }
+
+    .headline p {
+        font-size: 18px;
+    }
+
+    .img-headline img {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .logo {
+        width: 200px;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+
+    .headline h2 {
+        font-size: 35px;
+    }
+
+    .headline span {
+        font-size: 20px;
+    }
+
+    .headline p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .navbar {
+        height: 120px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .product {
+        width: 130px;
+        height: 400px;
+    }
+
+    .product img {
+        width: 100px;
+    }
+
+    .product-exclusive {
+        width: 130px;
+        height: 400px;
+    }
+
+    .product-exclusive img {
+        width: 100px;
+    }
+
+    .btn-contato {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    .btn-contato-exclusive {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    .links a {
+        font-size: 12px;
+    }
+
+    .contacts a {
+        font-size: 15px;
+    }
+
+}

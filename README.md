@@ -40,10 +40,12 @@ O site foi desenvolvido para funcionar em diferentes tamanhos de tela:
 
 ```text
 GardenArt/
-├── pages/
-│   ├── index.html
-│   ├── about.html 
-│   └── services.html
+├── index.html
+│
+├── services/
+│   └── index.html
+├── about/
+│   └── index.html
 ├── styles/
 │   ├── responsive.css
 │   └── style.css
